@@ -19,9 +19,9 @@ env:
   Rec_name: TWRP
   Rec_ver: 3.6.0
   Rec_url: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-11
-  device: g7
-  DT_url: https://github.com/Edward-Recovery-Lab/twrp_device_hmd_BGT_sprout -b android-11
-  DT_path: device/hmd/BGT_sprout
+  device: murray
+  DT_url: https://github.com/sonybasement/twrp_sony_pdx225 -b main
+  DT_path: device/sony/murray
   ProductFileHeader: twrp
   target: recoveryimage
   WorkSpace: WorkSpace
