@@ -19,9 +19,9 @@ env:
   Rec_name: TWRP
   Rec_ver: 3.6.0
   Rec_url: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-11
-  device: murray
-  DT_url: https://github.com/sonybasement/twrp_sony_pdx225 -b main
-  DT_path: device/sony/murray
+  device: AURORA
+  DT_url: https://github.com/LRTeamRom/twrp_tree -b TYH211U-11
+  DT_path: device/chinatelecom/AURORA
   ProductFileHeader: twrp
   target: recoveryimage
   WorkSpace: WorkSpace
@@ -45,7 +45,7 @@ jobs:
           sudo -E apt-get -qq install curl libstdc++6 git wget repo rsync aria2
           echo "::endgroup::"
           git config --global user.name "${{github.actor}}"
-          git config --global user.email "1844766234@qq.com"
+          git config --global user.email "1052239551@qq.com"
           git clone https://gitlab.com/OrangeFox/misc/scripts.git --depth=1 --single-branch
           cd scripts
           echo "::group::Setup Build Env"
